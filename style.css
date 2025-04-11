@@ -1,0 +1,68 @@
+html, body{
+	font-family: Arial, sans-serif;
+	background-color: #FFFFFF;
+	color: #333;
+	margin: 0;
+	padding: 5;
+}
+
+h1{
+	font-family: 'DM Serif Display';
+	font-size: 5rem;
+	color: #4A90E2;
+}
+
+h2{
+	font-family: 'DM Serif Display';
+	font-size: 2rem;
+	color: #000000;
+}
+
+h3{
+	font-family: 'DM Serif Display';
+	font-size: 2rem;
+	color: #FFFFFF;
+}
+
+h4{
+	font-family: 'DM Serif Display';
+	font-size: 1.5rem;
+	color: #D1D3D4;
+}
+
+p{
+	font-family: 'Inter';
+	font-size: 1.5rem;
+}
+
+#linkHeader{
+	background-color: #FFFFFF;
+	height: 40px;
+	padding: 5px;
+	right;
+}
+#header{
+	background: linear-gradient(to top, #4A90E2, #FFFFFF);
+}
+#splintingSection{
+	background-color:#4A90E2;
+	padding: 0.5rem;
+}
+
+.button{
+	background-color: #D1D3D4;
+	color: #000000;
+	border-style: solid;
+	font-size: 1.5rem;
+	font-family: 'DM Serif Display';
+}
+
+.button:hover{
+	background-color: #4A90E2;
+	color: #000000;
+	border-style: solid;
+	font-size: 1.6rem;
+	font-family: 'DM Serif Display';
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+          0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
