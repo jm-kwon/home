@@ -1,68 +1,77 @@
-html, body{
-	font-family: Arial, sans-serif;
-	background-color: #FFFFFF;
-	color: #333;
-	margin: 0;
-	padding: 5;
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f4f8;
+  color: #333;
 }
 
-h1{
-	font-family: 'DM Serif Display';
-	font-size: 5rem;
-	color: #4A90E2;
+.navbar {
+  background-color: #222;
+  padding: 1em;
+  text-align: center;
 }
 
-h2{
-	font-family: 'DM Serif Display';
-	font-size: 2rem;
-	color: #000000;
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-h3{
-	font-family: 'DM Serif Display';
-	font-size: 2rem;
-	color: #FFFFFF;
+.navbar li {
+  display: inline;
+  margin: 0 15px;
 }
 
-h4{
-	font-family: 'DM Serif Display';
-	font-size: 1.5rem;
-	color: #D1D3D4;
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-p{
-	font-family: 'Inter';
-	font-size: 1.5rem;
+.hero {
+  text-align: center;
+  padding: 3em 1em;
+  background-color: #e8f0fe;
 }
 
-#linkHeader{
-	background-color: #FFFFFF;
-	height: 40px;
-	padding: 5px;
-	right;
-}
-#header{
-	background: linear-gradient(to top, #4A90E2, #FFFFFF);
-}
-#splintingSection{
-	background-color:#4A90E2;
-	padding: 0.5rem;
+.preview {
+  text-align: center;
+  padding: 2em;
 }
 
-.button{
-	background-color: #D1D3D4;
-	color: #000000;
-	border-style: solid;
-	font-size: 1.5rem;
-	font-family: 'DM Serif Display';
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+  margin-top: 2em;
 }
 
-.button:hover{
-	background-color: #4A90E2;
-	color: #000000;
-	border-style: solid;
-	font-size: 1.6rem;
-	font-family: 'DM Serif Display';
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
-          0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.card {
+  background-color: white;
+  padding: 1.5em;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  max-width: 300px;
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 1em;
+  padding: 0.5em 1.2em;
+  background-color: #0077cc;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #222;
+  color: white;
+  margin-top: 3em;
 }
