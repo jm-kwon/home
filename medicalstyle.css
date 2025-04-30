@@ -75,8 +75,8 @@ body {
 }
 
 .section h4 {
-    font-size: 1.2rem;
-  margin-top: 15px;
+  font-size: 1.2rem;
+  margin-top: 1px;
   color: #0077b6;
 }
 
@@ -123,8 +123,40 @@ body {
 }
 
 .image {
-  flex: 1;
-  min-width: 200px;
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: filter 0.3s ease;
+}
+
+.container{
+  position: relative;
+  width: 50%;
+}
+
+.container:hover .imgtxt {
+  opacity: 1;
+}
+
+.container:hover .image {
+  filter: brightness(0.85);
+  transition: filter 0.3s ease;
+}
+
+.imgtxt{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
 }
 
 footer {
