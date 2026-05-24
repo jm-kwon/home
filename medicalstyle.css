@@ -90,7 +90,7 @@ body {
   transition: .2s ease;
 }
 
-.toc-list-item: a:before{
+.toc-list-item a:before{
   content: '';
   width: 25px;
   height: 25px;
@@ -104,7 +104,7 @@ body {
 }
 
 .toc-list-item:hover{
-  box-shadow: 0 8px 15px #0077b6);
+  box-shadow: 0 8px 15px #0077b6;
   background: #0077b6;
   color: #0077b6;
 }
